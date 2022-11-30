@@ -141,7 +141,6 @@ button:hover {
 .icon:hover {
     cursor: pointer;
     filter: invert(60%) sepia(90%) saturate(2000%) hue-rotate(255deg) brightness(94%) contrast(95%);
-
 } 
 
 
