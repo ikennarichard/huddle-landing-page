@@ -41,7 +41,7 @@ img {
 body {
     min-height: 100vh;
     display: grid;
-    place-content: center;
+    place-items: center;
     padding: 1em 1em;
 }
 
@@ -73,6 +73,7 @@ header {
     background-size: 100%;
     background-color: var(--dark-violet);
     background-repeat: no-repeat;
+    max-width: 80%;
 }
 
 
@@ -151,4 +152,51 @@ footer {
     margin-block-end: 1em;
     gap: 0.6em;
     
+}
+
+/* media-queres---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media (min-width: 940px) {
+    .container {
+        background-image: url(./images/bg-desktop.svg);
+        flex-direction: row;
+        padding: 2em 2em;
+        max-width: none;
+        position: relative;
+        padding-block-end: 4em;
+    }
+
+    header {
+        width: 30em;
+    }
+
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 26em;
+        margin-inline-start: 2em;
+        padding: 0;
+    }
+
+    h1, .description {
+        text-align: left;
+    }
+
+    h1 {
+        width: 12em;
+    }
+
+    .description {
+        width: 29em;
+    }
+
+    footer {
+        align-self: flex-end;
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+    }
 }
