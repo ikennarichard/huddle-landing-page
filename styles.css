@@ -1,0 +1,154 @@
+/* imports-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* default styles-------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --dark-violet: hsl(257, 28%, 40%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --whiteish: rgba(255, 255, 255, 0.995);
+    --poppins: 'Poppins', 'Times New Roman', sans-serif;
+    --open-sans: 'Open Sans', Times New Roman, sans-serif;
+}
+
+
+html {
+    font-size: 14px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    padding: 1em 1em;
+}
+
+
+
+
+
+/* main-styles------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+.logo {
+    width: 35%;
+}
+
+
+header {
+    display: grid;
+    gap: 1em;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2em 2em;
+    justify-content: center;
+    background-image: url(./images/bg-mobile.svg);
+    background-size: 100%;
+    background-color: var(--dark-violet);
+    background-repeat: no-repeat;
+}
+
+
+
+.illustration {
+    justify-self: center;
+    margin-block-start: 1.7em;
+}
+
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: var(--whiteish);
+    font-family: var(--poppins);
+    font-size: 1.6em;
+    margin-block-start: 2em;
+}
+
+
+.description {
+    margin-block-start: -0.1em;
+    text-align: center;
+    width: 75%;
+    color: var(--whiteish);
+    word-spacing: 0.5px;
+    font-family: var(--open-sans);
+    font-size: 12px;
+}
+
+button {
+    padding: 0.7em 4em 0.8em 4em;
+    border: none;
+    color: var(--violet);
+    font-family: var(--poppins);
+    border-radius: 0.2ch;
+    font-size: 0.8em;
+    margin-block-start: 1em;
+    background-color: var(--whiteish);
+}
+
+button:hover {
+    background-color: var(--soft-magenta);
+    box-shadow: 0px 0px 3px 0.3px var(--violet);
+    color: white;
+    cursor: pointer;
+}
+
+
+.icon {
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    filter:  contrast(90%) invert(100%);
+}
+
+
+.icon:hover {
+    cursor: pointer;
+    filter: invert(60%) sepia(90%) saturate(2000%) hue-rotate(255deg) brightness(94%) contrast(95%);
+
+} 
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-block-start: 4em;
+    margin-block-end: 1em;
+    gap: 0.6em;
+    
+}
