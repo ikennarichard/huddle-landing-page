@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - [Git Repo](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Live Site](https://ikennarichard.github.io/huddle-landing-page/)
 
 ## My process
 
