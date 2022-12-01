@@ -1,5 +1,7 @@
 # Frontend Mentor - Huddle landing page with single introductory section solution
 
+To me, the best way to learn something (especially something dry), is to relate it to something you love. - Peter Weinberg
+
 This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
